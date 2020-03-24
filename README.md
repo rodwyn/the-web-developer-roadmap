@@ -16,8 +16,16 @@ Every command line starts with some symbol or symbols designed to “prompt” y
 | echo | Print string to screen | echo <string> | $ echo hello |
 | man  | Display manual page for command | man <command> | $ man echo |
 | pwd | Display the path of the current directory user are in |
-| alias | Lets you give your own name to a command or sequence of commands | new_command_name=“command” | alias cls=clear |
+| alias | Lets you give your own name to a command or sequence of commands | alias_name=“command” | alias cls=clear |
 | unalias | Remove system alias |
+  
+### Wildcards
+
+| Wildcard | Description | Example |
+| -------- | ----------- | ------- |
+| &ast; | Matches one or more occurrences of any character, including no character | cp &ast; directory <br> cp abc*xyz directory <br> cp &ast;xyz directory <br> cp abc&ast; directory  |
+| ? | Represents or matches a single occurrence of any character | cp a?b directory <br> cp ?b directory <br> cp a? directory |
+| [ ] | Matches any occurrence of character enclosed in the square brackets. <br> It is possible to use different types of characters:<br> numbers, letters, other special characters etc. | cp [range-of-characters]* directory <br> cp [!range-of-characters]* directory <br> cp [range-of-numbers]* directory <br> cp [[:upper:]]* directory <br> cp [[:lower:]]* directory <br> cp [[:digit:]]* directory <br> cp [[:alpha:]]* directory <br> cp [[:alnum]]* directory |
   
 ### Shortcuts
 
