@@ -9,8 +9,10 @@ Every command line starts with some symbol or symbols designed to “prompt” y
 
 ![](images/command-line.png)
 
-| Command | Description | Example |
-| ------- | ----------- | ------- |
-| echo <string> | Print string to screen | $ echo hello |
-| man <command> | Display manual page for command | $ man echo |
-| pwd | Display the path of the current directory user are in. | 
+| Command | Description | Syntax | Example |
+| ------- | ----------- | ------ | ------- |
+| echo | Print string to screen | echo <string> | $ echo hello |
+| man  | Display manual page for command | man <command> | $ man echo |
+| pwd | Display the path of the current directory user are in |
+| alias | Lets you give your own name to a command or sequence of commands | new_command_name=“command” | alias cls=clear |
+| unalias | Remove system alias |
