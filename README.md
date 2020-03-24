@@ -9,6 +9,8 @@ Every command line starts with some symbol or symbols designed to “prompt” y
 
 ![](images/command-line.png)
 
+### Basic commands
+
 | Command | Description | Syntax | Example |
 | ------- | ----------- | ------ | ------- |
 | echo | Print string to screen | echo <string> | $ echo hello |
@@ -16,3 +18,17 @@ Every command line starts with some symbol or symbols designed to “prompt” y
 | pwd | Display the path of the current directory user are in |
 | alias | Lets you give your own name to a command or sequence of commands | new_command_name=“command” | alias cls=clear |
 | unalias | Remove system alias |
+  
+### Shortcuts
+
+| Shortcut | Description |
+| -------- | ----------- |
+| ⌃C | Get out of trouble |
+| ⌃A | Move to beginning of line |
+| ⌃E | Move to end of line |
+| ⌃U | Delete to beginning of line |
+| Option-click | Move cursor to location clicked |
+| Up & down arrow | Scroll through previous commands |
+| ⌃L | Clear screen |
+| ⌃D | Exit terminal |
+
