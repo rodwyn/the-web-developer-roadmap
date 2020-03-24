@@ -13,3 +13,4 @@ Every command line starts with some symbol or symbols designed to “prompt” y
 | ------- | ----------- | ------- |
 | echo <string> | Print string to screen | $ echo hello |
 | man <command> | Display manual page for command | $ man echo |
+| pwd | Display the path of the current directory user are in. | 
