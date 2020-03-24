@@ -8,3 +8,8 @@ The command line is how you run your code. You must be able to navigate and exec
 Every command line starts with some symbol or symbols designed to “prompt” you to action. The prompt usually ends with a dollar sign $, and is preceded by information that depends on the details of your system.
 
 ![](images/command-line.png)
+
+| Command | Description | Example |
+| ------- | ----------- | ------- |
+| echo <string> | Print string to screen | $ echo hello |
+| man <command> | Display manual page for command | $ man echo |
