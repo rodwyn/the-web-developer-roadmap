@@ -42,3 +42,15 @@ Every command line starts with some symbol or symbols designed to “prompt” y
 
 ## Git and Version Control
 Git is the tool used to save code and create different versions, allowing you to collaborate with other developers. The top place to store code and collaborate on open source software is GitHub.
+
+### Why source control?
+- Backup / Archive
+- Versioning / History
+- Undo Changes
+- Comparing
+- Collaboration / Teamwork
+- Blame / Learning moment
+- Isolation of changes 
+- Experimentation
+- Context Switching 
+- Code review 
