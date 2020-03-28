@@ -40,3 +40,5 @@ Every command line starts with some symbol or symbols designed to “prompt” y
 | ⌃L | Clear screen |
 | ⌃D | Exit terminal |
 
+## Git and Version Control
+Git is the tool used to save code and create different versions, allowing you to collaborate with other developers. The top place to store code and collaborate on open source software is GitHub.
