@@ -54,3 +54,13 @@ Git is the tool used to save code and create different versions, allowing you to
 - Experimentation
 - Context Switching 
 - Code review 
+
+### Why Git?
+- Distributed source control system
+- Massively scales
+- Open source
+- Developed for Linux project requirements
+- Most operations are local
+- Very fast 
+- Active community 
+- Most popular DVCS, VCS
