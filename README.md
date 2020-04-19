@@ -66,7 +66,7 @@ Git is the tool used to save code and create different versions, allowing you to
 - Most popular DVCS, VCS
 
 ### Key Git terminology
-Repository contains files, history, config managed by Git
+Repository contains files, history, config managed by Git.  
 Three local states of Git
 Working directory is the directory on your computer that holds all the project files
 Staging area is a pre-commit holding area
